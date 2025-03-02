@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BT Components </title>
+  <link rel="icon" href="images/fav.png">
+  <!-- font links -->
+  <!-- css links -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar starts -->
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>    
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 1</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Link 2</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Link 3</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true" href="#">Disabled</a>
+  </li>  
+</ul>
+<!-- Navbar ends -->
+
+
+<!-- Nav starts -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="Bootstrap" width="30" height="24">
+      </a>
+
+      <a class="navbar-brand" href="#">Navbar</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_1" aria-controls="nav_1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+ <div class="collapse navbar-collapse" id="nav_1">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Form</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      
+      </div>
+    </div>
+
+  </nav>
+<!-- Nav ends -->
+
+<br><br>
+
+<!-- Card Starts -->
+<div class="container">
+  
+<div class="card">
+  <img src="images/card.png" alt="image" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt fugit quibusdam harum, obcaecati omnis.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> Item1</li>
+    <li class="list-group-item"> Item2</li>
+    <li class="list-group-item"> Item3</li>
+    <li class="list-group-item"> Item4</li>
+  </ul>
+    <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+  </div>
+</div>
+
+</div>
+<!-- Card Ends -->
+
+<br><br>
+
+<!-- modal starts -->
+
+<div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- modal ends -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
